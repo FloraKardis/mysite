@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/static/fonts/Montserrat.woff2')  format('woff2')
+}
+
+* {
+    font-family: 'Montserrat', sans;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-image: linear-gradient(30deg, #736 50%, #648);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    font-size: 50px;
+    font-weight: 200;
+    color: #ddd;
+}
